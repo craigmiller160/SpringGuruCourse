@@ -31,7 +31,7 @@ public class RecipeServiceImplTest {
         Set<Recipe> recipeData = new HashSet<>();
         recipeData.add(recipe);
 
-        Mockito.when(recipeService.getRecipes())
+        Mockito.when(recipeRepository.findAll())
                 .thenReturn(recipeData);
 
         Set<Recipe> recipes = recipeService.getRecipes();
