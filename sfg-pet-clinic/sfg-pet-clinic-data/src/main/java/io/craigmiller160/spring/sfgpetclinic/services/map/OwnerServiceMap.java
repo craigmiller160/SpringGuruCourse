@@ -9,8 +9,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements O
 
     @Override
     public Owner findByLastName(String lastName) {
-        //TODO need to finish this...
-        return null;
+        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     @Override
